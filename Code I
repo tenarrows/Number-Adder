@@ -1,0 +1,17 @@
+import random
+i = 0
+
+def genNumber():
+    a = random.randint(1, 15)
+    b = random.randint(1, 15)
+    return a, b
+
+def addNumbers(a, b):
+    print(a)
+    print(b)
+    print(a + b)
+
+while i < 3:
+    genNumber()
+    addNumbers(a, b)
+    i = i+1
